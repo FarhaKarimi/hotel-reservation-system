@@ -99,23 +99,3 @@ Testing
 Unit and integration tests included in each module.
 
 Run tests with Maven:
-
-bash
-Copy
-Edit
-mvn test  
-Future Improvements
-Implement circuit breaker and fallback mechanisms (Resilience4j).
-
-Add API Gateway for unified external API.
-
-Use Kafka or RabbitMQ for event bus to enhance async communication.
-
-Implement centralized logging and monitoring (ELK stack, Prometheus).
-
-Author
-Developed by [F.karimi] — Java Backend Developer & Spring Boot Enthusiast.
-
-License
-MIT License © 2025
-
