@@ -74,28 +74,4 @@ Getting Started
 Prerequisites
 Java 17+
 
-Docker & Docker Compose
 
-Maven
-
-Running Locally
-Clone the repo
-
-Build each service:
-
-bash
-Copy
-Edit
-cd user-service && mvn clean install  
-cd ../room-service && mvn clean install  
-# repeat for all services  
-Start services with Docker Compose:
-
-bash
-Copy
-Edit
-docker-compose up --build  
-Testing
-Unit and integration tests included in each module.
-
-Run tests with Maven:
